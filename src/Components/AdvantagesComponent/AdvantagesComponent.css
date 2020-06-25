@@ -1,0 +1,144 @@
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans&display=swap');
+.container-block{
+    display: flex;
+    justify-content: center;
+    margin-top: 45px;
+}
+
+.car-container{
+ 
+    width: 696px;
+    height: 568px;
+    background-image: url('./../../images/car.png');
+}
+.car-container #number{
+    width: 259px;
+    height: 65px;
+    margin-top: 383px;
+    margin-left: 218px;
+}
+.car-container #rectangle-car{
+    width: 79px;
+    height: 35px;
+    background-color: #FFFFFF;
+    margin-left: 320px;
+    margin-top: -55px;
+    position: relative;
+}
+.info-block{
+    width: 442px;
+    height: 523px;
+    margin-left: 88px;
+}
+.info-point{
+    margin-bottom: 90px;
+}
+.info-point h3{
+    margin-left: 25px ;
+    font-family: Fira Sans;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 30px;
+    letter-spacing: 0.3px;
+    color: #000000;
+}
+
+.time-square{
+    display: flex;
+    height: 54px;
+    width:287px;
+    
+}
+.document{
+    display: flex;
+    height: 54px;
+    width:287px;
+}
+.business{
+    display: flex;
+    height: 54px;
+    width:287px;
+}
+.rectangle-info{
+    width: 100px;
+    height: 12px;
+    background-color: #FF213B;
+    margin-left: 25px;
+
+}
+.info-point p{
+    margin-top: 20px;
+    margin-left: 80px;
+}
+
+@media screen and (max-width: 1200px) {
+    .car-container{
+        width: 600px;
+        height: 500px;
+        background-image: url('./../../images/car.png');
+        background-size: 600px 500px;
+    }
+    .car-container #number{
+        width: 259px;
+        height: 65px;
+        margin-top: 340px;
+        margin-left: 180px;
+    }
+    .car-container #rectangle-car{
+        width: 79px;
+        height: 35px;
+        background-color: #FFFFFF;
+        margin-left: 280px;
+        margin-top: -55px;
+        position: relative;
+    }
+    .info-block{
+        margin-left: 40px;
+    }
+  }
+  @media screen and (max-width: 1000px) {
+    .car-container{
+        width: 500px;
+        height: 400px;
+        background-image: url('./../../images/car.png');
+        background-size: 500px 400px;
+    }
+    .car-container #number{
+        width: 200px;
+        height: 50px;
+        margin-top: 270px;
+        margin-left: 160px;
+    }
+    .car-container #rectangle-car{
+        width: 65px;
+        height: 30px;
+        background-color: #FFFFFF;
+        margin-left: 235px;
+        margin-top: -45px;
+        position: relative;
+    }
+    .info-block{
+        width: 400px;
+        height: 500px;
+        margin-left: 20px;
+    }
+    .info-point{
+        margin-bottom: 20px;
+    }
+  }
+  @media screen and (max-width: 900px) {
+    .container-block{
+        display: block;
+    }
+    .car-container{
+    margin-bottom: 40px;
+    position: relative;
+    left: 50%;
+    transform: translate(-50%, 0);
+    }
+    .info-block{
+        position: relative;
+    left: 50%;
+    transform: translate(-50%, 0);
+    }
+}
